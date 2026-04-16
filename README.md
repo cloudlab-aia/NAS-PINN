@@ -16,8 +16,6 @@ The project studies **weight inheritance in differentiable neural architecture s
 The repository currently includes:
 
 - **`nas_pinn_experiments.ipynb`**: main Jupyter notebook containing the experiments and analysis used in the paper.
-- **`figures/`**: representative convergence plots used in the manuscript.
-- **`requirements.txt`**: Python dependencies required to run the notebook.
 
 The code covers:
 - differentiable NAS for PINNs,
