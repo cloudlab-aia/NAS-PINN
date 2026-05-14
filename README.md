@@ -1,13 +1,13 @@
-<h1 align="center">Advances in Neural Architecture Search for Physics-Informed Neural Networks</h1>
+<h1 align="center">Weight Inheritance in Differentiable Neural Architecture Search for Physics-Informed Neural Networks</h1>
 <p align="center">Code repository for the experiments on neural architecture search, weight inheritance, and warm-up strategies in PINNs.</p>
 
 <p align="center">
   <a href="PUT_PAPER_LINK_HERE">
-    <img src="https://img.shields.io/badge/Neurocomputing-Under%20Review-orange" alt="Paper Status">
+    <img src="https://img.shields.io/badge/Journal of Scientific Computing-Under%20Review-orange" alt="Paper Status">
   </a>
 </p>
 
-This repository contains the code implementation of the experiments performed for the paper **"Advances in Neural Architecture Search for Physics-Informed Neural Networks"**.
+This repository contains the code implementation of the experiments performed for the paper **"Weight Inheritance in Differentiable Neural Architecture Search for Physics-Informed Neural Networks"**.
 
 The project studies **weight inheritance in differentiable neural architecture search (NAS) for physics-informed neural networks (PINNs)**, focusing on whether parameters learned in the continuous searched supernetwork can be reused effectively in the final discretized architecture. The repository includes experiments on **advection** and **Poisson** benchmark problems, together with comparisons between **scratch initialization**, **weight inheritance**, and **inheritance with a short warm-up stage**.
 
