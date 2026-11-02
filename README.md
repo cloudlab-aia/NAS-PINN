@@ -1,7 +1,7 @@
 <h1 align="center">Weight Inheritance in Differentiable Neural Architecture Search for Physics-Informed Neural Networks</h1>
 <p align="center">Code for the experiments on neural architecture search, weight inheritance, and warm-up strategies in PINNs.</p>
 
-This repository contains the code of the experiments reported in the paper **"Weight inheritance in differentiable neural architecture search for physics-informed neural networks: an empirical study"** (under review).
+This repository contains the code of the experiments reported in the paper **"Weight inheritance in differentiable neural architecture search for physics-informed neural networks"** (under review).
 
 The project studies **weight inheritance in differentiable neural architecture search (NAS) for physics-informed neural networks (PINNs)**: whether the parameters learned in the continuous supernetwork during the search can be reused to initialize the final discretized architecture, instead of retraining it from scratch. The repository includes experiments on **advection** and **Poisson** benchmark problems, comparing **scratch initialization**, **weight inheritance**, and **inheritance with a short warm-up stage**.
 
@@ -64,7 +64,7 @@ Grant <b>Serverless4HPC PID2023-152804OB-I00</b> funded by MICIU/AEI/10.13039/50
 
 ```bibtex
 @misc{naspinn_repo,
-  title        = {Weight inheritance in differentiable neural architecture search for physics-informed neural networks: an empirical study},
+  title        = {Weight inheritance in differentiable neural architecture search for physics-informed neural networks},
   author       = {Mu\~{n}oz Hern\'{a}ndez, David and Herrero G\'{o}mez, Pablo and Garc\'{i}a Gelardo, Alejandro and Jimeno-Morenilla, Antonio and Mora, Higinio},
   year         = {2026},
   note         = {GitHub repository},
